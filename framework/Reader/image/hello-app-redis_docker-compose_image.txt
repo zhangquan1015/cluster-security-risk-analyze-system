@@ -1,0 +1,13 @@
+gcr.io/google-samples/hello-app-redis:1.0
+docker.io/bitnami/redis-cluster:6.2
+docker.io/bitnami/redis-cluster:6.2
+docker.io/bitnami/redis-cluster:6.2
+docker.io/bitnami/redis-cluster:6.2
+docker.io/bitnami/redis-cluster:6.2
+docker.io/bitnami/redis-cluster:6.2
+docker.io/bitnami/redis-cluster:6.2
+docker.io/bitnami/redis-cluster:6.2
+docker.io/bitnami/redis-cluster:6.2
+docker.io/bitnami/redis-cluster:6.2
+docker.io/bitnami/redis-cluster:6.2
+docker.io/bitnami/redis-cluster:6.2

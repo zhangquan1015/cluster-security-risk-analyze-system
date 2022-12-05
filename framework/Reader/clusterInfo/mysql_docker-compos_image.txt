@@ -1,0 +1,1 @@
+{"containers_info": {"mysql": {"name": "mysql", "image": "mysql:5.7", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["mysql"], "images": ["mysql:5.7"], "networks": {"bridge": ["mysql"]}}

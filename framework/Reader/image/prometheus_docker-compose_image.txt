@@ -1,0 +1,5 @@
+prom/prometheus
+prom/alertmanager
+grafana/grafana
+quay.io/prometheus/node-exporter
+google/cadvisor:latest

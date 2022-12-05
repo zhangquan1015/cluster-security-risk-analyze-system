@@ -1,0 +1,1 @@
+{"containers_info": {"web1": {"name": "web1", "image": "busybox", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["web1"], "images": ["busybox"], "networks": {"bridge": ["web1"]}}

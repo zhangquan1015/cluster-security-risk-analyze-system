@@ -1,0 +1,1 @@
+{"containers_info": {"front_end": {"name": "front_end", "image": "gcr.io/google-samples/gb-frontend:v4", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["front_end"], "images": ["gcr.io/google-samples/gb-frontend:v4"], "networks": {"bridge": ["front_end"]}}

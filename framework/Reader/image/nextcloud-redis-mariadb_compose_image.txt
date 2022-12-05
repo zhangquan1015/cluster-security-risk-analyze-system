@@ -1,0 +1,3 @@
+nextcloud:apache
+redis:alpine
+mariadb:10.5

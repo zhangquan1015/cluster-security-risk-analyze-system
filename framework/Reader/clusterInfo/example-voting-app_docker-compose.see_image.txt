@@ -1,0 +1,1 @@
+{"containers_info": {"seed": {"name": "seed", "image": "", "link": [], "parents": [], "networks": ["front-tier"], "children": []}}, "containers": ["seed"], "images": [], "networks": {"front-tier": ["seed"], "bridge": []}}

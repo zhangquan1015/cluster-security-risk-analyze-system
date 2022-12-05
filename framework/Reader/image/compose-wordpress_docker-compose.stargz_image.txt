@@ -1,0 +1,2 @@
+ghcr.io/stargz-containers/wordpress:5.7-esgz
+ghcr.io/stargz-containers/mariadb:10.5-esgz

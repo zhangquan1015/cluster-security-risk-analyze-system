@@ -1,0 +1,6 @@
+prom/prometheus:v2.1.0
+gcr.io/cadvisor/cadvisor
+prom/node-exporter
+prom/alertmanager
+gcr.io/cadvisor/cadvisor
+grafana/grafana

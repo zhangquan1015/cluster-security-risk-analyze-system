@@ -1,0 +1,2 @@
+librenms/librenms:latest
+librenms/dispatcher:latest

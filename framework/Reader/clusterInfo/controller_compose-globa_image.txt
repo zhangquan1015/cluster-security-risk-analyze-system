@@ -1,0 +1,1 @@
+{"containers_info": {"worker": {"name": "worker", "image": "dockersamples/examplevotingapp_worker", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["worker"], "images": ["dockersamples/examplevotingapp_worker"], "networks": {"bridge": ["worker"]}}

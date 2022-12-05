@@ -1,0 +1,2 @@
+mcr.microsoft.com/oss/bitnami/redis:6.0.8
+mcr.microsoft.com/azuredocs/azure-vote-front:v1

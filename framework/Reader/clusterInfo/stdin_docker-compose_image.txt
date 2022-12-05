@@ -1,0 +1,1 @@
+{"containers_info": {"backend": {"name": "backend", "image": "helloworld", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["backend"], "images": ["helloworld"], "networks": {"bridge": ["backend"]}}

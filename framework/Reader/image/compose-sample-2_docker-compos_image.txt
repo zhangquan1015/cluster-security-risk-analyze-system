@@ -1,0 +1,2 @@
+nginx:1.23
+httpd:2

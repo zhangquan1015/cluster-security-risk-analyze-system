@@ -1,0 +1,2 @@
+docker.io/library/wordpress:latest
+docker.io/library/mariadb:10.6.4-focal

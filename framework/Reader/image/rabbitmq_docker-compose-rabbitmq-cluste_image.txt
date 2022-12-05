@@ -1,0 +1,2 @@
+registry.cn-hangzhou.aliyuncs.com/zhengqing/rabbitmq:3.9.1-management
+registry.cn-hangzhou.aliyuncs.com/zhengqing/rabbitmq:3.9.1-management

@@ -1,0 +1,1 @@
+{"containers_info": {"web": {"name": "web", "image": "nginx", "link": [], "parents": [], "networks": ["bridge"], "children": []}, "db": {"name": "db", "image": "mysql", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["web", "db"], "images": ["nginx", "mysql"], "networks": {"bridge": ["web", "db"]}}

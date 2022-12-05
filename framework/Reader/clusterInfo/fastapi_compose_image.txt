@@ -1,0 +1,1 @@
+{"containers_info": {"api": {"name": "api", "image": "", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["api"], "images": [], "networks": {"bridge": ["api"]}}

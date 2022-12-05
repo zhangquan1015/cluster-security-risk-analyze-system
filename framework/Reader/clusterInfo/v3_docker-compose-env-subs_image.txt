@@ -1,0 +1,1 @@
+{"containers_info": {"foo": {"name": "foo", "image": "foo/bar:latest", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["foo"], "images": ["foo/bar:latest"], "networks": {"bridge": ["foo"]}}

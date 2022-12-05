@@ -1,0 +1,1 @@
+{"containers_info": {"node-red": {"name": "node-red", "image": "busybox", "link": [], "parents": [], "networks": ["hostnet"], "children": []}}, "containers": ["node-red"], "images": ["busybox"], "networks": {"hostnet": ["node-red"], "bridge": []}}

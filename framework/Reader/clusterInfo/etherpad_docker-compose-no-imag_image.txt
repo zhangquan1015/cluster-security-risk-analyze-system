@@ -1,0 +1,1 @@
+{"containers_info": {"mariadb": {"name": "mariadb", "image": "", "link": [], "parents": [], "networks": ["bridge"], "children": []}, "etherpad": {"name": "etherpad", "image": "", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["mariadb", "etherpad"], "images": [], "networks": {"bridge": ["mariadb", "etherpad"]}}

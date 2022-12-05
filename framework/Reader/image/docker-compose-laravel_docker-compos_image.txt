@@ -1,0 +1,7 @@
+redis:alpine
+mariadb:10.6
+mailhog/mailhog:latest
+mariadb:10.6
+redis:alpine
+node:current-alpine
+mailhog/mailhog:latest

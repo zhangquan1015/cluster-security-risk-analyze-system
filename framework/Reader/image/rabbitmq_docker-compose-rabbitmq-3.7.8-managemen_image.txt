@@ -1,0 +1,1 @@
+registry.cn-hangzhou.aliyuncs.com/zhengqing/rabbitmq:3.7.8-management

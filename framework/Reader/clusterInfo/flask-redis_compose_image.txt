@@ -1,0 +1,1 @@
+{"containers_info": {"redis": {"name": "redis", "image": "redislabs/redismod", "link": [], "parents": [], "networks": ["bridge"], "children": ["web"]}, "web": {"name": "web", "image": "", "link": [], "parents": ["redis"], "networks": ["bridge"], "children": []}}, "containers": ["redis", "web"], "images": ["redislabs/redismod"], "networks": {"bridge": ["redis", "web"]}}

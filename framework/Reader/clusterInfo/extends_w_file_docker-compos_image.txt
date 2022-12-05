@@ -1,0 +1,1 @@
+{"containers_info": {"web": {"name": "web", "image": "", "link": [], "parents": [], "networks": ["bridge"], "children": []}, "important_web": {"name": "important_web", "image": "", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["web", "important_web"], "images": [], "networks": {"bridge": ["web", "important_web"]}}

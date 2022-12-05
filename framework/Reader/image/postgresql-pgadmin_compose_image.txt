@@ -1,0 +1,2 @@
+postgres:latest
+dpage/pgadmin4:latest

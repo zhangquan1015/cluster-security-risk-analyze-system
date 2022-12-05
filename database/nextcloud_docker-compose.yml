@@ -1,0 +1,32 @@
+version: '3.5'
+
+services:
+  nextcloud:
+    image: nextcloud:latest
+    volumes:
+      - ./data/nextcloud:/var/www/html:rw # moutn nextcloud files folder
+      - ./data:/data:rw # mount your personal data folder
+    restart: always
+  aria2:
+    image: wahyd4/aria2-ui:nextcloud
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./data:/data # mount your personal data folder
+    # volumes:
+      # - /app/a.db:/app/filebrowser.db
+      # - /yoursslkeys/:/app/conf/key
+      # - <the folder of aria2.conf and aria2.session>:/app/conf
+    environment:
+      - DOMAIN=:80 #domain, for https just bind domain like this https://example.com
+      # - PUID=1000 # bind custom linux user id
+      # - PGID=1000 # bind custom linux group id
+      # - ENABLE_AUTH=true # enable authentication for aria2
+      # - RPC_SECRET=Hello # aria2 rpc secret
+      # - ARIA2_SSL=false
+      # - ARIA2_USER=user # aria2 login user
+      # - ARIA2_PWD=pwd  # aria2 login password
+    links:
+      - nextcloud:file-manager
+    restart: always

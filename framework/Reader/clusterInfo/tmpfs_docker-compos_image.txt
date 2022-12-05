@@ -1,0 +1,1 @@
+{"containers_info": {"redis-master": {"name": "redis-master", "image": "k8s.gcr.io/redis:e2e", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["redis-master"], "images": ["k8s.gcr.io/redis:e2e"], "networks": {"bridge": ["redis-master"]}}

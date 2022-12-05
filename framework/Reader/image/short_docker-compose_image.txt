@@ -1,0 +1,5 @@
+redis:alpine
+busybox
+busybox
+busybox
+busybox

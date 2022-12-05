@@ -1,0 +1,5 @@
+postgres:9.6
+rabbitmq:3
+memcached:alpine
+ansible/awx_web:3.0.1
+ansible/awx_task:3.0.1

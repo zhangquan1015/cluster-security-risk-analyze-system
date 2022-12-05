@@ -1,0 +1,6 @@
+redis:alpine
+postgres:9.4
+dockersamples/examplevotingapp_vote:before
+dockersamples/examplevotingapp_result:before
+dockersamples/examplevotingapp_worker
+dockersamples/visualizer:stable

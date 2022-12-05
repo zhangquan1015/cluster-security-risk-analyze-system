@@ -1,0 +1,2 @@
+redis:alpine
+postgres:9.4
