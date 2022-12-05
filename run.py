@@ -1,5 +1,5 @@
 import os
-import framework.loader.loader as load
+# import framework.loader.loader as load
 
 curPath = os.path.dirname(os.path.realpath(__file__))
 dataPath = os.path.join(curPath,"database")
@@ -12,4 +12,4 @@ for i in dataName:
     # print(yamlPath)
     # myYaml = yaml.load(f)
     # print(myYaml)
-    print(load.loader(yamlPath))
+    # print(load.loader(yamlPath))

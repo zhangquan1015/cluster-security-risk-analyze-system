@@ -4,7 +4,7 @@ SYSTEM_PATH=$PWD
 # EXTRACTOR_PATH=$PWD"/Extractor"
 # ANALYZER_PATH=$PWD"/Analyzer"
 # W_NUM="$1"
-LOADER_PATH=$PWD"/Reader"
+LOADER_PATH=$PWD"/Loader"
 DOWLOADER_PATH=$PWD"/Downloader"
 
 echo "System: start"
@@ -28,74 +28,21 @@ echo finish > finish
 # 下载公开镜像
 cd $DOWLOADER_PATH
 echo $PWD
-# while true
-# do
-# 	# echo "Dowloader: Waiting for Crawler ..."
-# 	# sleep 15
-# 	loader_finish=`cat $LOADER_PATH/finish.txt`
-# 	if [ "$loader_finish" = "finish" ];then
-# 		echo "finish" > finish.txt
-# 	else
-# 		echo "unfinish" > finish.txt
-# 	fi
-	
-#     # $SYSTEM_PATH/keywords.txt 
-# 	while read keyword
-# 	do
-#         # 检查FILE是否存在并且其大小大于零(表示它不为空)。 
-# 		if [ -s "$CRAWLER_PATH/$keyword.txt" ];then 
-# 			echo "Continue" > finish.txt
-# 		    # $CRAWLER_PATH/$keyword.txt 
-# 			while read name
-# 			do
-#                 # -n 或 --line-number : 在显示符合样式的那一行之前，标示出该行的列数编号。
-# 				LINE=`grep -n $name pull_done.txt`
+# images=`ls $LOADER_PATH/image | tr ' ' '\n'`
+# echo $images
+ls $LOADER_PATH/image | while read line
+do
+  if [ -s $LOADER_PATH/image/$line ]
+  then
+      while read name
+      do
+        # echo $line
+        # echo $name
+         ./pull.sh $name
+      done < $LOADER_PATH/image/$line
+  fi
+done
 
-# 				#echo $LINE
-
-# 				if [ -z "$LINE" ];then
-# 					echo "Dowloader: pulling... $name"
-# 					./pull.sh $name $keyword
-# 					echo $name >> $DOWLOADER_PATH/pull_done.txt
-
-# 				elif [ -n "$LINE" ];then
-# 					FLAG=0
-# 					for OLD_KEY in $(echo $LINE|tr "," "\n"); do
-# 						OLD_KEY=${OLD_KEY#*:}
-# 				#		echo $OLD_KEY
-# 						if [ "$name" == "$OLD_KEY" ];then
-# 							let FLAG+=1
-# 							break
-# 						fi
-# 					done
-					
-# 				#	echo $FLAG
-					
-# 					if [ "$FLAG" -gt "0" ];then
-# 						echo Downloader: $name is pulling
-# 					else
-# 						echo "Dowloader: pulling... $name"
-# 						./pull.sh $name $keyword
-# 						echo $name >> $DOWLOADER_PATH/pull_done.txt
-# 					fi
-# 				fi
-# 			done < $CRAWLER_PATH/$keyword.txt 
-
-# 			while read done_name
-# 			do
-# 				sed "\|$done_name|d" $CRAWLER_PATH/$keyword.txt > $CRAWLER_PATH/$keyword.txt
-# 			done < $DOWLOADER_PATH/pull_done.txt
-# 		elif [ -f "$CRAWLER_PATH/$keyword.txt" ];then 
-# 			rm $CRAWLER_PATH/$keyword.txt
-# 		fi		
-# 	done < $SYSTEM_PATH/keywords.txt 
-
-# 	finish=`cat finish.txt`
-# 	echo "Downloader $finish"
-# 	if [ "$finish" = "finish" ];then
-# 		break
-# 	fi
-# done &
 # 搭建自定义镜像
 
 # 扫描镜像漏洞
