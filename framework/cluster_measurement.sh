@@ -6,7 +6,10 @@ SYSTEM_PATH=$PWD
 # W_NUM="$1"
 LOADER_PATH=$PWD"/Loader"
 DOWLOADER_PATH=$PWD"/Downloader"
-
+BUILDER_PATH=$PWD"/Builder"
+SCANNER_PATH=$PWD"/Scanner"
+EXTRACTOR_PATH=$PWD"/Extractor"
+ANALYZER_PATH=$PWD"/Analyzer"
 echo "System: start"
 
 # cat /dev/null > $DOWLOADER_PATH/pull_done.txt
@@ -27,6 +30,7 @@ echo finish > finish
 
 # 下载公开镜像
 cd $DOWLOADER_PATH
+cat /dev/null > download_done.txt
 echo $PWD
 # images=`ls $LOADER_PATH/image | tr ' ' '\n'`
 # echo $images
@@ -38,7 +42,7 @@ do
       do
         # echo $line
         # echo $name
-         ./pull.sh $name
+        ./pull.sh $name
       done < $LOADER_PATH/image/$line
   fi
 done
@@ -46,7 +50,11 @@ done
 # 搭建自定义镜像
 
 # 扫描镜像漏洞
-
+cd $SCANNER_PATH
+cat /dev/null > vulns_list.csv
+# image CVE
 # 提取漏洞特征（漏洞特征）
-
+cd $EXTRACTOR_PATH
+python3 run.py
 # 评估集群漏洞
+cd $ANALYZER_PATH
