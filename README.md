@@ -9,7 +9,11 @@
 
 
 # 模块设计
-环境感知-Loader √
-镜像下载-Downloader √
-漏洞扫描-Scanner
-风险分析-Estimator √
+Loader
+加载集群环境的配置文件，获取集群所需要的环境信息
+Downloader
+拉取集群容器所需要的基础镜像
+Scanner
+扫描镜像的漏洞信息
+Estimator
+对集群内部的漏洞进行风险分析
