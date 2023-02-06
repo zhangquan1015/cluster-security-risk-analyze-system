@@ -1,4 +1,4 @@
-"Package","Version Installed","Vulnerability ID","Severity"
+"Package","Version Installed","VulnerabilityID","Severity"
 "krb5-locales","1.15-1+deb9u1","CVE-2004-0971","Negligible"
 "libgssapi-krb5-2","1.15-1+deb9u1","CVE-2004-0971","Negligible"
 "libk5crypto3","1.15-1+deb9u1","CVE-2004-0971","Negligible"

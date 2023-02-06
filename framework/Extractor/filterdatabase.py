@@ -17,7 +17,7 @@ def filter_exploitation(exploits):
         if "Advisory" in exploit[0]:
             return "PoC"
     return "Unproven"
-
+# "Unproven" "PoC"  "Not Defined"
 def filter_remediation(patchs):
     if len(patchs) == 0:
         return "Unavailable"
@@ -29,4 +29,4 @@ def filter_remediation(patchs):
             fix = "Third Party Fix"
     return fix
 
-# Workaround；Third Party Fix；Official Fix；
+# Workaround；Third Party Fix；Official Fix； "Unavailable"

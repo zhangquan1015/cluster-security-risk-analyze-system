@@ -36,20 +36,20 @@ cat /dev/null > download_done.txt
 # echo $images
 
 # 对大量集群进行检测
-ls $LOADER_PATH/image | while read line
-do
-# 判断不为空
-  if [ -s $LOADER_PATH/image/$line ]
-  then
-      while read name
-      do
-        ./pull.sh $name
-      done < $LOADER_PATH/image/$line
-  fi
-done
+# ls $LOADER_PATH/image | while read line
+# do
+# # 判断不为空
+#   if [ -s $LOADER_PATH/image/$line ]
+#   then
+#       while read name
+#       do
+#         ./pull.sh $name
+#       done < $LOADER_PATH/image/$line
+#   fi
+# done
 
 
-
+echo  "扫描镜像漏洞"
 # 搭建自定义镜像
 
 # 扫描镜像漏洞
@@ -72,9 +72,11 @@ do
 done
 
 
-# # image CVE
-# # 提取漏洞特征（漏洞特征）
-# cd $EXTRACTOR_PATH
-# python3 run.py
+# image CVE
+# 提取漏洞特征（漏洞特征）
+cd $EXTRACTOR_PATH
+python3 run.py
+
+
 # # 评估集群漏洞
 # cd $ANALYZER_PATH

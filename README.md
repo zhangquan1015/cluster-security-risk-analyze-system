@@ -15,6 +15,9 @@ Downloader
 拉取集群容器所需要的基础镜像
 Scanner
 扫描镜像的漏洞信息
+Extractor
+提取漏洞的其他信息保存在本地数据库
+
 
 Estimator
 输入信息： k1 k2 

@@ -1,4 +1,4 @@
-"Package","Version Installed","Vulnerability ID","Severity"
+"Package","Version Installed","VulnerabilityID","Severity"
 "zlib","1.2.11-r1","CVE-2018-25032","High"
 "libcrypto1.1","1.1.1d-r0","CVE-2019-1551","Medium"
 "libssl1.1","1.1.1d-r0","CVE-2019-1551","Medium"

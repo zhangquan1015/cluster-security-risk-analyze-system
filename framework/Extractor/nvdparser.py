@@ -122,6 +122,8 @@ def parse_data(req_jason):
     CVE['Exploits'] = Exploit
     CVE['Patchs'] = Patch
     CVE['CVSS  Metrics'] = CVSS['cvssData']
+    CVE['ESC'] = CVSS['exploitabilityScore']
+    CVE['ISC'] = CVSS['impactScore']
     # CVEList.append([CVEID,CVE])
     return CVE
 
@@ -162,7 +164,7 @@ if __name__ == '__main__':
     # url="https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2020-8622"
     # cve = "CVE-2016-7948"
 
-    cveDict = request_data("CVE-2016-7948")
+    cveDict = request_data("CVE-2016-7943")
     # print(cveDict['vulnerabilities'][0]['cve'])
     temp=parse_data(cveDict)
     print(temp)
