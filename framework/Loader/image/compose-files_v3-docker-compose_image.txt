@@ -1,2 +1,0 @@
-tuna/docker-counter23
-redis:3.0

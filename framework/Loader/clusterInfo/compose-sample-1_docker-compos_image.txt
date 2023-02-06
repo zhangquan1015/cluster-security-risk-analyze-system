@@ -1,1 +1,0 @@
-{"containers_info": {"jekyll": {"name": "jekyll", "image": "bretfisher/jekyll-serve", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["jekyll"], "images": ["bretfisher/jekyll-serve"], "networks": {"bridge": ["jekyll"]}}

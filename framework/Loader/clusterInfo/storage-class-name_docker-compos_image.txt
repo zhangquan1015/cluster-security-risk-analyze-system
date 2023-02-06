@@ -1,1 +1,0 @@
-{"containers_info": {"nginx": {"name": "nginx", "image": "nginx", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["nginx"], "images": ["nginx"], "networks": {"bridge": ["nginx"]}}

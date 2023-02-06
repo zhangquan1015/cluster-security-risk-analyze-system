@@ -1,1 +1,0 @@
-{"containers_info": {"rabbitmq": {"name": "rabbitmq", "image": "registry.cn-hangzhou.aliyuncs.com/zhengqing/rabbitmq:3.7.8-management", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["rabbitmq"], "images": ["registry.cn-hangzhou.aliyuncs.com/zhengqing/rabbitmq:3.7.8-management"], "networks": {"bridge": ["rabbitmq"]}}

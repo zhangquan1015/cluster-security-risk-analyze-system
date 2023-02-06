@@ -1,3 +1,0 @@
-my-busybox-httpd
-my-busybox-httpd2
-my-busybox-httpd2

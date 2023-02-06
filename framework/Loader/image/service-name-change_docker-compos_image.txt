@@ -1,2 +1,0 @@
-bitnami/mariadb:latest
-bitnami/wordpress:latest

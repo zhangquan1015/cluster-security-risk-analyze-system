@@ -1,1 +1,0 @@
-{"containers_info": {"variables": {"name": "variables", "image": "busybox", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["variables"], "images": ["busybox"], "networks": {"bridge": ["variables"]}}

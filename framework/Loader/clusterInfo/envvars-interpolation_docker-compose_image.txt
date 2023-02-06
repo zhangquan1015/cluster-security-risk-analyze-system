@@ -1,1 +1,0 @@
-{"containers_info": {"myservice": {"name": "myservice", "image": "alpine", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["myservice"], "images": ["alpine"], "networks": {"bridge": ["myservice"]}}

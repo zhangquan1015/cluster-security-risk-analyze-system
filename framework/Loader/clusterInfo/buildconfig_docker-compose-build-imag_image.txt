@@ -1,1 +1,0 @@
-{"containers_info": {"foo": {"name": "foo", "image": "172.30.1.1:5000/myproject/test-image", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["foo"], "images": ["172.30.1.1:5000/myproject/test-image"], "networks": {"bridge": ["foo"]}}

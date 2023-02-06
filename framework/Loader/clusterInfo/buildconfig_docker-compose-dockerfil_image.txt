@@ -1,1 +1,0 @@
-{"containers_info": {"foo": {"name": "foo", "image": "docker.io/cdrage/foobar", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["foo"], "images": ["docker.io/cdrage/foobar"], "networks": {"bridge": ["foo"]}}

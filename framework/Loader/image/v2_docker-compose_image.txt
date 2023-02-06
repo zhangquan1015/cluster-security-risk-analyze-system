@@ -1,2 +1,0 @@
-foobar
-redis:3.0

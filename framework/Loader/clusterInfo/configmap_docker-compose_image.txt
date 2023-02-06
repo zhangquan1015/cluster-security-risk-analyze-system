@@ -1,1 +1,0 @@
-{"containers_info": {"redis": {"name": "redis", "image": "bitnami/redis:latest", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["redis"], "images": ["bitnami/redis:latest"], "networks": {"bridge": ["redis"]}}

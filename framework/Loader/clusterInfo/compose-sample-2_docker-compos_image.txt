@@ -1,1 +1,0 @@
-{"containers_info": {"proxy": {"name": "proxy", "image": "nginx:1.23", "link": [], "parents": [], "networks": ["bridge"], "children": []}, "web": {"name": "web", "image": "httpd:2", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["proxy", "web"], "images": ["nginx:1.23", "httpd:2"], "networks": {"bridge": ["proxy", "web"]}}

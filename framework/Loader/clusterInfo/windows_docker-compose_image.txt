@@ -1,1 +1,0 @@
-{"containers_info": {"db": {"name": "db", "image": "nginx:latest", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["db"], "images": ["nginx:latest"], "networks": {"bridge": ["db"]}}

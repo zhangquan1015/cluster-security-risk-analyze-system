@@ -1,1 +1,0 @@
-dockersamples/examplevotingapp_worker

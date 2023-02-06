@@ -1,3 +1,0 @@
-mariadb:10-focal
-mariadb:10-focal
-nginx

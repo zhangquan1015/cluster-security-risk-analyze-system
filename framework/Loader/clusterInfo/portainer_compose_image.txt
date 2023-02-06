@@ -1,1 +1,0 @@
-{"containers_info": {"portainer": {"name": "portainer", "image": "portainer/portainer-ce:alpine", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["portainer"], "images": ["portainer/portainer-ce:alpine"], "networks": {"bridge": ["portainer"]}}

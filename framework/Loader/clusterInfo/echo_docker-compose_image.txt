@@ -1,1 +1,0 @@
-{"containers_info": {"web": {"name": "web", "image": "k8s.gcr.io/echoserver:1.4", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["web"], "images": ["k8s.gcr.io/echoserver:1.4"], "networks": {"bridge": ["web"]}}

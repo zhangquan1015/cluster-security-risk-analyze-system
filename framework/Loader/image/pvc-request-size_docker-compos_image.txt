@@ -1,2 +1,0 @@
-sameersbn/redis:latest
-sameersbn/postgresql:9.5-3

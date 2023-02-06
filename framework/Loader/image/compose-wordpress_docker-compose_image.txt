@@ -1,2 +1,0 @@
-wordpress:5.7
-mariadb:10.5

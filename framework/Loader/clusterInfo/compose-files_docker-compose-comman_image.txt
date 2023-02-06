@@ -1,1 +1,0 @@
-{"containers_info": {"base1": {"name": "base1", "image": "busybox", "link": [], "parents": [], "networks": ["bridge"], "children": []}, "base2": {"name": "base2", "image": "busybox", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["base1", "base2"], "images": ["busybox", "busybox"], "networks": {"bridge": ["base1", "base2"]}}

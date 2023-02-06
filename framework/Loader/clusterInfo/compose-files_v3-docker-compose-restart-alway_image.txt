@@ -1,1 +1,0 @@
-{"containers_info": {"pival": {"name": "pival", "image": "perl", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["pival"], "images": ["perl"], "networks": {"bridge": ["pival"]}}

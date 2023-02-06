@@ -1,1 +1,0 @@
-{"containers_info": {"redis": {"name": "redis", "image": "redis", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["redis"], "images": ["redis"], "networks": {"bridge": ["redis"]}}

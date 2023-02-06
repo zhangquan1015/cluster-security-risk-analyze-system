@@ -1,1 +1,0 @@
-{"containers_info": {"web": {"name": "web", "image": "centos/httpd", "link": [], "parents": [], "networks": ["bridge"], "children": []}, "nginx": {"name": "nginx", "image": "nginx", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["web", "nginx"], "images": ["centos/httpd", "nginx"], "networks": {"bridge": ["web", "nginx"]}}

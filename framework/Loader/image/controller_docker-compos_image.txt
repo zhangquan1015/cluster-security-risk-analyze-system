@@ -1,3 +1,0 @@
-k8s.gcr.io/redis:e2e
-gcr.io/google_samples/gb-redisslave:v1
-gcr.io/google-samples/gb-frontend:v4

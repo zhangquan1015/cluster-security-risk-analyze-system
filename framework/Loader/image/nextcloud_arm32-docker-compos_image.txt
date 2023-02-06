@@ -1,2 +1,0 @@
-arm32v7/nextcloud:latest
-wahyd4/aria2-ui:nextcloud-arm32

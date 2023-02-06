@@ -1,1 +1,0 @@
-{"containers_info": {"client": {"name": "client", "image": "registry.centos.org/centos/centos:7", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["client"], "images": ["registry.centos.org/centos/centos:7"], "networks": {"bridge": ["client"]}}

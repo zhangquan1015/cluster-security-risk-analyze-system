@@ -6,7 +6,7 @@ KEY=$1
 LINE=`grep -n $KEY download_done.txt`
 # -n 或 --line-number : 在显示符合样式的那一行之前，标示出该行的列数编号
 #echo $LINE
-
+cat /dev/nul > pull_fail_list.txt
 # -z 字符串	字符串的长度为零
 if [ -z "$LINE" ];then
 # 没有这个镜像

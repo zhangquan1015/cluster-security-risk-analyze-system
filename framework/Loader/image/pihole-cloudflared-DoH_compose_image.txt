@@ -1,2 +1,0 @@
-visibilityspots/cloudflared
-pihole/pihole:latest

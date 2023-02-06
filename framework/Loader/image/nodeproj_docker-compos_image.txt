@@ -1,2 +1,0 @@
-docker.io/redis:alpine
-${NODE_IMG:-node16-runtime}

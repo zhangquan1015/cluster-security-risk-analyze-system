@@ -1,1 +1,0 @@
-{"containers_info": {"server": {"name": "server", "image": "test", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["server"], "images": ["test"], "networks": {"bridge": ["server"]}}

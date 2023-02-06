@@ -11,7 +11,8 @@ import loader_2
 # print(os.path.realpath(__file__))
 curPath = os.path.dirname(os.path.realpath(__file__))
 frameworkPath = os.path.dirname(curPath)
-dataPath = os.path.join(frameworkPath,"database")
+# dataPath = os.path.join(frameworkPath,"database")
+dataPath = os.path.join(frameworkPath,"DB")
 dataName = os.listdir(dataPath)
 
 # 删除非空路径

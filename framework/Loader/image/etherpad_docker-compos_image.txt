@@ -1,2 +1,0 @@
-centos/mariadb
-centos/etherpad

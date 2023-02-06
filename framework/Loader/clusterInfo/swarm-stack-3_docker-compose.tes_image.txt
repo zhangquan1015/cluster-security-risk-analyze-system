@@ -1,1 +1,0 @@
-{"containers_info": {"drupal": {"name": "drupal", "image": "custom-drupal", "link": [], "parents": [], "networks": ["bridge"], "children": []}, "postgres": {"name": "postgres", "image": "", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["drupal", "postgres"], "images": ["custom-drupal"], "networks": {"bridge": ["drupal", "postgres"]}}

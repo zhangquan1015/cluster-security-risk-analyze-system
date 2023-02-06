@@ -1,2 +1,0 @@
-mariadb:10.6.4-focal
-mariadb:10.6.4-focal

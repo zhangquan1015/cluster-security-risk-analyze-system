@@ -1,1 +1,0 @@
-{"containers_info": {"webapiapplication": {"name": "webapiapplication", "image": "webapiapplication", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["webapiapplication"], "images": ["webapiapplication"], "networks": {"bridge": ["webapiapplication"]}}

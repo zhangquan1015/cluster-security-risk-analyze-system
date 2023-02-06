@@ -1,5 +1,0 @@
-nobodyiam/apollo-quick-start
-mysql:5.7
-alpine:latest
-mysql:5.7
-alpine:latest

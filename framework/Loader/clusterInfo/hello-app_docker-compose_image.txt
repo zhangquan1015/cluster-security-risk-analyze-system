@@ -1,1 +1,0 @@
-{"containers_info": {"web": {"name": "web", "image": "gcr.io/google-samples/hello-app:1.0", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["web"], "images": ["gcr.io/google-samples/hello-app:1.0"], "networks": {"bridge": ["web"]}}

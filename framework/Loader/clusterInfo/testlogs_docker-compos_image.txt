@@ -1,1 +1,0 @@
-{"containers_info": {"loop1": {"name": "loop1", "image": "busybox", "link": [], "parents": [], "networks": ["bridge"], "children": []}, "loop2": {"name": "loop2", "image": "busybox", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["loop1", "loop2"], "images": ["busybox", "busybox"], "networks": {"bridge": ["loop1", "loop2"]}}

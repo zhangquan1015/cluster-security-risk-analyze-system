@@ -1,1 +1,0 @@
-{"containers_info": {"web": {"name": "web", "image": "flask_web", "link": [], "parents": [], "networks": ["bridge"], "children": []}, "redis": {"name": "redis", "image": "redis", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["web", "redis"], "images": ["flask_web", "redis"], "networks": {"bridge": ["web", "redis"]}}

@@ -1,7 +1,7 @@
 import yaml
 
 
-def helper(service,cluster_services,containers,containers_info,images,networks):
+def AST(service,cluster_services,containers,containers_info,images,networks):
     # print(service)
     cluster_service = cluster_services[service]
     containers.append(service)
@@ -20,12 +20,15 @@ def helper(service,cluster_services,containers,containers_info,images,networks):
     else:
         containers_info[service]['networks'].append('bridge')
         networks['bridge'].append(service)
+
+
     if 'depends_on' in cluster_service:
         for depends_on in cluster_service['depends_on']:
             containers_info[service]['parents'].append(depends_on)
-            if depends_on not in containers_info:
-                helper(depends_on,cluster_services,containers,containers_info,images,networks)
-            containers_info[depends_on]['children'].append(service)
+
+            # if depends_on not in containers_info:
+            #     helper(depends_on,cluster_services,containers,containers_info,images,networks)
+            # containers_info[depends_on]['children'].append(service)
     return
 
 def loader(yamlPath):
@@ -54,7 +57,14 @@ def loader(yamlPath):
         networks[cluster_network]=[]
 
     for service in cluster_services:
-        helper(service,cluster_services,containers,containers_info,images,networks)
+        AST(service,cluster_services,containers,containers_info,images,networks)
+    # 理清出父-子容器依赖关系
+    for child in cluster_services:
+        if containers_info[child]['parents'] is not None:
+            for parent in containers_info[child]['parents']:
+                containers_info[parent]['children'].append(child)
+
+        
 
         # cluster_service = cluster_services[service]
         # # container = {"key":"valu"}
@@ -104,8 +114,9 @@ def loader(yamlPath):
 
 if __name__ == "__main__":
     # yamlPath = "/home/zhangquan/code/cluster-security-risk-analysis-system/database/traefik-golang_compose.yaml"
-    yamlPath = "/home/zhangquan/code/cluster-security-risk-analysis-system/database/react-express-mysql_compose.yaml"
-    loader(yamlPath)
+    yamlPath = "/home/zhangquan/code/cluster-security-risk-analyze-system/framework/database/docker-prometheus.dockerapp_docker-compose.yml"
+    tmp=loader(yamlPath)
+    print(tmp)
 
 # metadata:{
 #     containers_info:{

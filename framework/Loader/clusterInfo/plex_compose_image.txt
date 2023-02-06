@@ -1,1 +1,0 @@
-{"containers_info": {"plex": {"name": "plex", "image": "linuxserver/plex", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["plex"], "images": ["linuxserver/plex"], "networks": {"bridge": ["plex"]}}

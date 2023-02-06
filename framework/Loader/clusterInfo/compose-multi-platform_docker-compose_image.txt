@@ -1,1 +1,0 @@
-{"containers_info": {"svc0": {"name": "svc0", "image": "", "link": [], "parents": [], "networks": ["bridge"], "children": []}, "svc1": {"name": "svc1", "image": "", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["svc0", "svc1"], "images": [], "networks": {"bridge": ["svc0", "svc1"]}}

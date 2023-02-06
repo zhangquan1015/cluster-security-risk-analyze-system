@@ -1,3 +1,0 @@
-mysql:5.7
-afian/filerun
-wahyd4/aria2-ui:filerun

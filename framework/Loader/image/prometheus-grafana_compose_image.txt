@@ -1,2 +1,0 @@
-prom/prometheus
-grafana/grafana

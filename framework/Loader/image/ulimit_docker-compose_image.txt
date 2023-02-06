@@ -1,3 +1,0 @@
-ulimit_test
-ulimit_test
-ulimit_test

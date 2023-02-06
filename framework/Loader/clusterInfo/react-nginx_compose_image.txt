@@ -1,1 +1,0 @@
-{"containers_info": {"frontend": {"name": "frontend", "image": "", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["frontend"], "images": [], "networks": {"bridge": ["frontend"]}}

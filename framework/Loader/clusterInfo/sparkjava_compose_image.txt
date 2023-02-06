@@ -1,1 +1,0 @@
-{"containers_info": {"sparkjava": {"name": "sparkjava", "image": "", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["sparkjava"], "images": [], "networks": {"bridge": ["sparkjava"]}}

@@ -1,1 +1,0 @@
-{"containers_info": {"dns": {"name": "dns", "image": "phensley/docker-dns", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["dns"], "images": ["phensley/docker-dns"], "networks": {"bridge": ["dns"]}}

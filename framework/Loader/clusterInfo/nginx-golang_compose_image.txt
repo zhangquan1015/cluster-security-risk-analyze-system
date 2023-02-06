@@ -1,1 +1,0 @@
-{"containers_info": {"proxy": {"name": "proxy", "image": "nginx", "link": [], "parents": ["backend"], "networks": ["bridge"], "children": []}, "backend": {"name": "backend", "image": "", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["proxy", "backend", "backend"], "images": ["nginx"], "networks": {"bridge": ["proxy", "backend", "backend"]}}

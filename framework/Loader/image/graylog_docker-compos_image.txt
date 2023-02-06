@@ -1,3 +1,0 @@
-mongo:4.2
-docker.elastic.co/elasticsearch/elasticsearch-oss:7.10.2
-graylog/graylog:4.2

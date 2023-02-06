@@ -1,2 +1,0 @@
-nextcloud:latest
-wahyd4/aria2-ui:nextcloud

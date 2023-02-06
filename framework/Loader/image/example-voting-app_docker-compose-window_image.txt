@@ -1,7 +1,0 @@
-dockersamples/examplevotingapp_vote:dotnet-nanoserver-sac2016
-nats:nanoserver
-dockersamples/examplevotingapp_result:dotnet-nanoserver-sac2016
-dockersamples/tidb:nanoserver
-dockersamples/examplevotingapp_worker:dotnet-nanoserver-sac2016
-nats:nanoserver
-dockersamples/tidb:nanoserver

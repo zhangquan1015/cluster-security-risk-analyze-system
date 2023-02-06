@@ -1,1 +1,0 @@
-{"containers_info": {"mariadb": {"name": "mariadb", "image": "centos/mariadb", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["mariadb"], "images": ["centos/mariadb"], "networks": {"bridge": ["mariadb"]}}

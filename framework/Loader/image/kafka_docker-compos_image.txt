@@ -1,3 +1,0 @@
-wurstmeister/zookeeper
-wurstmeister/kafka
-sheepkiller/kafka-manager

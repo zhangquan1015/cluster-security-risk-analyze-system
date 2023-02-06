@@ -1,2 +1,0 @@
-gitea/gitea:latest
-postgres:alpine

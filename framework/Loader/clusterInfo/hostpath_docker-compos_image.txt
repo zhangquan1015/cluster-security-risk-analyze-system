@@ -1,1 +1,0 @@
-{"containers_info": {"db": {"name": "db", "image": "postgres:10.1", "link": [], "parents": [], "networks": ["bridge"], "children": []}}, "containers": ["db"], "images": ["postgres:10.1"], "networks": {"bridge": ["db"]}}
