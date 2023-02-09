@@ -1,65 +1,83 @@
-import csv
+import estimator as box
+import dic_reader as reader
 import os
+import csv
 
-if (os.path.exists('results.csv')):
-    os.remove('results.csv')
 
-file_vulns = open('results.csv', mode='a',encoding='utf-8',newline='')
-writer = csv.DictWriter(file_vulns,fieldnames=['Container','Image','CVE-ID','Cost_Defender','Cost_Attacker','Profit_Defender','Impact_Attacker',
-'Topological dependency','Functional dependency','Risk'])
-# ['CVE-ID','Threat','Exploitation','Remediation','CWE-ID','Prioritization Score','Prioritization Level'])
-# architecturedict
-# Container,Image,NetWork,Function
+cluster_path = os.path.join(os.path.dirname(os.path.dirname(__file__)),"Loader/clusterInfo")
+# print(os.listdir(cluster_path))
+for name in os.listdir(cluster_path):
+    cluster_name = name[:-5]
+    print(cluster_name)
+    # 
+    # cve_dic = reader.cve(cve_id)
+    cluster_dic = reader.cluster(cluster_name)
+    # image_list = reader.image(cluster_name)
 
-def update(cvedict, architecturedict,prioritization_score):
-    updatedict = {}
-    updatedict['CVE-ID'] = cvedict['CVE-ID']
-    updatedict['Threat'] = filterdict['vector']
-    updatedict['Exploitation'] = filterdict['exploit']
-    updatedict['Remediation'] = filterdict['fix']
-    updatedict['CWE-ID'] = cvedict['CWE-ID']
-    updatedict['Prioritization Score'] = prioritization_score
-    updatedict['Prioritization Level'] = prioritization_level(prioritization_score)
-    Database[updatedict['CVE-ID']] = updatedict
-    writer.writerow(updatedict)k
 
-Database = {}
-# CVE-ID	CVSS	CWE-ID	Exploitation	Remediation	CVSS  Metrics
-f = open('localdbfilter.csv','r',encoding='utf8')
-reader = csv.DictReader(f)
-# print(reader) # <csv.DictReader object at 0x000002241D730FD0>
-for line in reader: # reader为了方便理解我们可以把它看成是一个列表嵌套OrderedDict(一种长相类似于列表的数据类型)
-    # print(line) # OrderedDict([('id', '1'), ('name', 'jason'), ('age', '18')]) 
-    # print(line['id'],line['name'],line['age']) # 可以通过键进行索引取值（类似于字典）
-    Database[line['CVE-ID']] = line
-    # print(line['CVE-ID'])
+    # box.Cost_attack()
+    # box.Cost_fix()
+    # box.Risk()
 
-file = open('localdbfilter.csv', mode='a',encoding='utf-8',newline='')
-writer = csv.DictWriter(file,fieldnames=['CVE-ID','Threat','Exploitation','Remediation','CWE-ID','Prioritization Score','Prioritization Level'])
-# csv_writer = csv.DictWriter(file,fieldnames=['CVE-ID','CVSS','CWE-ID','Exploits','Patchs','CVSS  Metrics'])
-# writer.writeheader()
-def update(cvedict, filterdict,prioritization_score):
-    updatedict = {}
-    updatedict['CVE-ID'] = cvedict['CVE-ID']
-    updatedict['Threat'] = filterdict['vector']
-    updatedict['Exploitation'] = filterdict['exploit']
-    updatedict['Remediation'] = filterdict['fix']
-    updatedict['CWE-ID'] = cvedict['CWE-ID']
-    updatedict['Prioritization Score'] = prioritization_score
-    updatedict['Prioritization Level'] = prioritization_level(prioritization_score)
-    Database[updatedict['CVE-ID']] = updatedict
-    writer.writerow(updatedict)
 
-def prioritization_level(score):
-    if 0.0 <= score < 3.0:
-        # return "Defer"
-        return "4"
-    elif 3.0 <= score < 6.0:
-        # return "Scheduled"
-        return "3"
-    elif 6.0 <= score < 9.0:
-        # return "Out-of-Cycle" 
-        return "2"   
-    else:
-        # return "Immediate"
-        return "1"
+
+    results_path = os.path.join(os.path.dirname(__file__),"results")
+    # cve_list = reader.getCVE(image)
+
+    header = ('Container','Image','CVE-ID','NetDep','FunDep','Cost_Defender','Cost_Attacker','Risk')
+    with open(os.path.join(results_path,cluster_name +".csv"), 'a', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(header)
+
+    file = open(os.path.join(results_path,cluster_name +".csv"), mode='a',encoding='utf-8',newline='') #xixi为文件名称
+    csv_writer = csv.DictWriter(file,fieldnames=['Container','Image','CVE-ID','NetDep','FunDep','Cost_Defender','Cost_Attacker','Risk'])
+
+    for container_name in cluster_dic['containers_info']:
+        # print(type(cluster_dic['containers_info']))
+        # print(type(container_dic))
+        container_dic = cluster_dic['containers_info'][container_name]
+        image_name = container_dic['image']
+        # print(container_dic)
+        # print(image_name)
+        cve_list = reader.getCVEList(image_name.replace(":","_"))
+        if cve_list is None:
+            continue
+        for cve_id in cve_list:
+            result = {}
+            cve_dic = reader.cve(cve_id)
+            result['Container'] = container_name
+            result['Image'] = image_name
+            result['CVE-ID'] = cve_id
+            result['NetDep'] = box.net_helper(container_name,cluster_dic)
+            result['FunDep'] = box.fun_helper(container_name,cluster_dic)
+            result['Cost_Defender'] = box.Cost_attack(cve_dic)
+            result['Cost_Attacker'] = box.Cost_fix(cve_dic)
+            result['Risk'] = box.Risk(cve_dic,container_name,cluster_dic)
+            csv_writer.writerow(result)
+
+    # cve_dic = reader.cve(cve_id)
+    # NetDep = box.net_helper("container",cluster_dic)
+    # FunDep = box.fun_helper("container",cluster_dic)
+    # Cost_Defender = box.Cost_attack(cve_dic)
+    # Cost_Attacker = box.Cost_fix(cve_dic)
+    # Risk = box.Risk(cve_dic,cluster_dic)
+    
+    # result['Container'] = "container"
+    # result['Image'] = "image"
+    # result['CVE-ID'] = cve_id
+    # result['NetDep'] = NetDep
+    # result['FunDep'] = FunDep
+    # result['Cost_Defender'] = Cost_Defender
+    # result['Cost_Attacker'] = Cost_Attacker
+    # result['Risk'] = Risk
+
+# 输出的结果格式
+# Container,Image,CVE-ID,NetDep,FunDep,Cost_Defender,Cost_Attacker,Risk
+
+
+if __name__ == "__main__":
+    print(os.getcwd())
+    print(os.path.dirname(__file__))
+    # print(image_list)
+    print(cve_dic)
+    print(cluster_dic)

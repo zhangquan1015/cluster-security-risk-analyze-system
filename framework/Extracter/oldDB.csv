@@ -1,0 +1,3 @@
+CVE-ID,CVSS,CWE-ID,Exploits,Patchs,CVSS  Metrics,ESC,ISC
+CVE-ID,CVSS,CWE-ID,Exploits,Patchs,CVSS  Metrics,ESC,ISC
+CVE-2004-0971,"['2.0', 'AV:L/AC:L/Au:N/C:N/I:P/A:N']",['NVD-CWE-Other'],[],"[['Vendor Advisory', 'http://www.gentoo.org/security/en/glsa/glsa-200410-24.xml'], ['Vendor Advisory', 'http://www.securityfocus.com/bid/11289']]","{'version': '2.0', 'vectorString': 'AV:L/AC:L/Au:N/C:N/I:P/A:N', 'accessVector': 'LOCAL', 'accessComplexity': 'LOW', 'authentication': 'NONE', 'confidentialityImpact': 'NONE', 'integrityImpact': 'PARTIAL', 'availabilityImpact': 'NONE', 'baseScore': 2.1}",3.9,2.9

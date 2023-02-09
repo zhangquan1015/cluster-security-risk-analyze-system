@@ -58,7 +58,7 @@ for i in dataName:
         # print(clusterInfo)
         # file = open(clusterInfo['containers_info'])
         # print(imagePath+"/"+file)
-        f_cluster = open(os.path.join(clusterPath,file)+".txt",'w')
+        f_cluster = open(os.path.join(clusterPath,file)+".json",'w')
 
         # write() argument must be str, not dict
         # f_cluster.write(clusterInfo)

@@ -12,18 +12,33 @@ for line in reader: # reader为了方便理解我们可以把它看成是一个�
     # print(line['CVE-ID'])
 
 file = open('newDB.csv', mode='a',encoding='utf-8',newline='')
-writer = csv.DictWriter(file,fieldnames=['CVE','ESC','ISC','BSC','BaseSeverity','CVSS','CWE','Exploit','Patch'])
+writer = csv.DictWriter(file,fieldnames=['CVE','ESC','ISC','BSC','BaseSeverity','CVSS','Exploit','Patch'])
 # csv_writer = csv.DictWriter(file,fieldnames=['CVE-ID','CVSS','CWE-ID','Exploits','Patchs','CVSS  Metrics'])
 # writer.writeheader()
+
+def baseSeverity(baseScore):
+    BSC = float(baseScore)
+    if BSC == 0.0:
+        return 'None'
+    elif BSC < 4:
+        return 'Low'
+    elif BSC < 7:
+        return 'Medium'
+    elif BSC < 9:
+        return 'High'
+    else:
+        return 'Critical'
+        
 def update(cvedict, filterdict):
     updatedict = {}
     updatedict['CVE'] = cvedict['CVE-ID']
     updatedict['ESC'] = cvedict['ESC']
     updatedict['ISC'] = cvedict['ISC']
     updatedict['BSC'] = cvedict['CVSS  Metrics']['baseScore']
-    updatedict['BaseSeverity'] = cvedict['CVSS  Metrics']['baseSeverity']
+    # updatedict['BaseSeverity'] = cvedict['CVSS  Metrics']['baseSeverity']
+    updatedict['BaseSeverity'] = baseSeverity(updatedict['BSC'])
     updatedict['CVSS'] = filterdict['vector']
-    updatedict['CWE'] = cvedict['CWE-ID']
+    # updatedict['CWE'] = cvedict['CWE-ID']
     updatedict['Exploit'] = filterdict['exploit']
     updatedict['Patch'] = filterdict['fix']
 
@@ -34,6 +49,7 @@ def update(cvedict, filterdict):
     # updatedict['Prioritization Score'] = prioritization_score
     # updatedict['Prioritization Level'] = prioritization_level(prioritization_score)
     Database[updatedict['CVE']] = updatedict
+    # print(updatedict)
     writer.writerow(updatedict)
 
 # def prioritization_level(score):
