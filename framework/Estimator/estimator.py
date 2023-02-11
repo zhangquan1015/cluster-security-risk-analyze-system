@@ -42,7 +42,7 @@ def Cost_fix(cve_dic,k1 = 1,k2 = 1):
     return round(Patch*(k1*ESC + k2*Vul),1)
 
 def Risk(cve_dic,container,cluster_dic,w1 = 1,w2 = 1):
-    ISC = float(cve_dic['ESC'])
+    ISC = float(cve_dic['ISC'])
     NetDep = net_helper(container,cluster_dic)
     FunDep = fun_helper(container,cluster_dic)
     return round(ISC*(w1*NetDep+w2*FunDep),1)

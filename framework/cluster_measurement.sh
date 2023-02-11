@@ -31,13 +31,13 @@ cat /dev/null > finish
 python3 loader_1.py
 echo finish > finish 
 
-# # 下载公开镜像
-# echo "准备下载公开镜像"
-# cd $DOWLOADER_PATH
-# cat /dev/null > download_done.txt
-# echo $PWD
-# images=`ls $LOADER_PATH/image | tr ' ' '\n'`
-# echo $images
+# # # 下载公开镜像
+# # echo "准备下载公开镜像"
+# # cd $DOWLOADER_PATH
+# # cat /dev/null > download_done.txt
+# # echo $PWD
+# # images=`ls $LOADER_PATH/image | tr ' ' '\n'`
+# # echo $images
 
 # # 对大量集群进行检测
 # ls $LOADER_PATH/image | while read line
@@ -70,6 +70,7 @@ do
   then
       while read name
       do
+        # echo $name
         ./scanner.sh $name
       done < $LOADER_PATH/image/$line
   fi
@@ -82,12 +83,11 @@ echo "准备提取漏洞特征（漏洞特征）"
 cd $EXTRACTER_PATH
 python3 run.py
 
-# # 评估集群漏洞
-# cd $ANALYZER_PATH
+# 评估集群漏洞
 echo "准备进行集群风险分析"
 cd $ESTIMATOR_PATH
 python3 run.py
 
-# 输出评估结果
-echo "输出打印结果"
-cd $EXPORTER_PATH
+# # 输出评估结果
+# echo "输出打印结果"
+# cd $EXPORTER_PATH

@@ -1,1 +1,320 @@
-CVE,ESC,ISC,BSC,BaseSeverity,CVSS,Exploit,PatchCVE-2004-0971,3.9,2.9,2.1,Low,AV:L/AC:L/Au:N/C:N/I:P/A:N,Not Defined,Third Party Fix
+CVE,ESC,ISC,BSC,BaseSeverity,CVSS,Exploit,Patch
+CVE-2004-0971,3.9,2.9,2.1,Low,AV:L/AC:L/Au:N/C:N/I:P/A:N,Not Defined,Third Party Fix
+CVE-2005-2541,10.0,10.0,10.0,Critical,AV:N/AC:L/Au:N/C:C/I:C/A:C,Not Defined,Unavailable
+CVE-2007-5686,3.9,6.9,4.9,Medium,AV:L/AC:L/Au:N/C:C/I:N/A:N,Not Defined,Unavailable
+CVE-2007-6755,8.6,4.9,5.8,Medium,AV:N/AC:M/Au:N/C:P/I:P/A:N,Not Defined,Unavailable
+CVE-2009-5155,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2010-0928,1.9,6.9,4.0,Medium,AV:L/AC:H/Au:N/C:C/I:N/A:N,Unproven,Unavailable
+CVE-2010-4756,8.0,2.9,4.0,Medium,AV:N/AC:L/Au:S/C:N/I:N/A:P,Unproven,Unavailable
+CVE-2011-3374,2.2,1.4,3.7,Low,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N,PoC,Unavailable
+CVE-2011-3389,8.6,2.9,4.3,Medium,AV:N/AC:M/Au:N/C:P/I:N/A:N,Not Defined,Third Party Fix
+CVE-2011-4116,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N,PoC,Third Party Fix
+CVE-2013-0340,8.6,6.4,6.8,Medium,AV:N/AC:M/Au:N/C:P/I:P/A:P,PoC,Unavailable
+CVE-2013-4235,1.0,3.6,4.7,Medium,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N,Not Defined,Unavailable
+CVE-2013-4392,3.4,4.9,3.3,Low,AV:L/AC:M/Au:N/C:P/I:P/A:N,Not Defined,Unavailable
+CVE-2013-7040,8.6,2.9,4.3,Medium,AV:N/AC:M/Au:N/C:N/I:N/A:P,Not Defined,Unavailable
+CVE-2015-20107,2.8,4.7,7.6,High,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L,PoC,Third Party Fix
+CVE-2015-3276,10.0,2.9,5.0,Medium,AV:N/AC:L/Au:N/C:N/I:P/A:N,Not Defined,Unavailable
+CVE-2015-8985,2.2,3.6,5.9,Medium,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2015-9019,3.9,1.4,5.3,Medium,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N,Not Defined,Third Party Fix
+CVE-2016-10228,2.2,3.6,5.9,Medium,CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2016-10739,1.8,3.4,5.3,Medium,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L,Not Defined,Third Party Fix
+CVE-2016-2779,1.8,5.9,7.8,High,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2016-2781,2.0,4.0,6.5,Medium,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N,Not Defined,Unavailable
+CVE-2016-9318,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N,PoC,Third Party Fix
+CVE-2016-9427,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Workaround
+CVE-2017-1000082,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2017-11164,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2017-11462,3.9,5.9,9.8,Critical,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2017-12132,2.2,3.6,5.9,Medium,CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N,Not Defined,Third Party Fix
+CVE-2017-12424,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2017-13685,1.8,3.6,5.5,Medium,CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2017-14062,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2017-14159,1.0,3.6,4.7,Medium,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2017-15088,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2017-16231,1.8,3.6,5.5,Medium,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2017-16932,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2017-17522,2.8,5.9,8.8,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2017-17740,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2017-18018,1.0,3.6,4.7,Medium,CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N,PoC,Unavailable
+CVE-2017-18078,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2017-18258,2.8,3.6,6.5,Medium,CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2017-20002,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2017-5130,2.8,5.9,8.8,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2017-5969,1.0,3.6,4.7,Medium,CVSS:3.0/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2017-7245,1.8,5.9,7.8,High,CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2017-7246,1.8,5.9,7.8,High,CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2017-8872,3.9,5.2,9.1,Critical,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H,Not Defined,Unavailable
+CVE-2017-9525,0.8,5.9,6.7,Medium,CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2018-1000001,1.8,5.9,7.8,High,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2018-1000030,1.0,2.5,3.6,Low,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:L,Not Defined,Third Party Fix
+CVE-2018-1000654,1.8,3.6,5.5,Medium,CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2018-1000858,2.8,5.9,8.8,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2018-12886,2.2,5.9,8.1,High,CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2018-14404,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2018-14567,2.8,3.6,6.5,Medium,CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2018-16868,0.4,4.7,5.6,Medium,CVSS:3.1/AV:P/AC:H/PR:L/UI:N/S:C/C:H/I:L/A:N,Not Defined,Unavailable
+CVE-2018-16869,0.5,4.7,5.7,Medium,CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/C:H/I:L/A:N,Not Defined,Unavailable
+CVE-2018-16888,1.0,3.6,4.7,Medium,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2018-19211,1.8,3.6,5.5,Medium,CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2018-20217,1.6,3.6,5.3,Medium,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2018-20346,2.2,5.9,8.1,High,CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2018-20482,1.0,3.6,4.7,Medium,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2018-20506,2.2,5.9,8.1,High,CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2018-20796,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2018-20852,3.9,1.4,5.3,Medium,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N,PoC,Unavailable
+CVE-2018-25032,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2018-5709,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N,Not Defined,Unavailable
+CVE-2018-5710,2.8,3.6,6.5,Medium,CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2018-5729,1.2,3.4,4.7,Medium,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L,Not Defined,Third Party Fix
+CVE-2018-5730,1.2,2.5,3.8,Low,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N,Not Defined,Third Party Fix
+CVE-2018-6485,3.9,5.9,9.8,Critical,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2018-6551,3.9,5.9,9.8,Critical,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Workaround
+CVE-2018-6829,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,PoC,Unavailable
+CVE-2018-6954,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2018-7169,3.9,1.4,5.3,Medium,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N,PoC,Unavailable
+CVE-2018-8740,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2018-9234,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,Not Defined,Unavailable
+CVE-2019-1010022,3.9,5.9,9.8,Critical,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2019-1010023,2.8,5.9,8.8,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2019-1010024,3.9,1.4,5.3,Medium,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N,PoC,Unavailable
+CVE-2019-1010025,3.9,1.4,5.3,Medium,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N,PoC,Unavailable
+CVE-2019-12900,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2019-13627,1.0,5.2,6.3,Medium,CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N,Not Defined,Unavailable
+CVE-2019-14855,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,PoC,Unavailable
+CVE-2019-1551,3.9,1.4,5.3,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N,Not Defined,Third Party Fix
+CVE-2019-16056,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,Not Defined,Workaround
+CVE-2019-16168,2.8,3.6,6.5,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2019-16935,2.8,2.7,6.1,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,PoC,Unavailable
+CVE-2019-17455,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2019-17543,2.2,5.9,8.1,High,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2019-17594,1.8,3.4,5.3,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L,PoC,Third Party Fix
+CVE-2019-17595,2.8,2.5,5.4,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L,PoC,Third Party Fix
+CVE-2019-18276,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2019-18348,2.8,2.7,6.1,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,Not Defined,Unavailable
+CVE-2019-18862,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2019-19126,1.8,1.4,3.3,Low,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N,Not Defined,Third Party Fix
+CVE-2019-19882,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2019-19956,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2019-20218,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2019-20367,3.9,5.2,9.1,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H,PoC,Unavailable
+CVE-2019-20386,0.9,1.4,2.4,Low,CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L,Not Defined,Third Party Fix
+CVE-2019-20388,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2019-20838,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2019-20907,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2019-25013,2.2,3.6,5.9,Medium,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2019-3829,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2019-3843,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2019-3844,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2019-5010,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2019-5188,0.8,5.9,6.7,Medium,CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2019-5827,2.8,5.9,8.8,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2019-6488,1.8,5.9,7.8,High,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2019-7309,1.8,3.6,5.5,Medium,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2019-8457,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2019-8905,1.8,2.5,4.4,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L,PoC,Unavailable
+CVE-2019-8907,2.8,5.9,8.8,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2019-9169,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2019-9192,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2019-9636,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2019-9674,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2019-9704,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2019-9705,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2019-9706,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2019-9740,2.8,2.7,6.1,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,PoC,Unavailable
+CVE-2019-9923,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2019-9936,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,PoC,Third Party Fix
+CVE-2019-9937,3.9,3.6,7.5,High,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2019-9947,2.8,2.7,6.1,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,PoC,Third Party Fix
+CVE-2019-9948,3.9,5.2,9.1,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N,PoC,Third Party Fix
+CVE-2020-10029,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2020-10531,2.8,5.9,8.8,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2020-10543,3.9,4.2,8.2,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H,Not Defined,Third Party Fix
+CVE-2020-10878,3.9,4.7,8.6,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H,Not Defined,Third Party Fix
+CVE-2020-11655,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2020-11656,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2020-12243,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2020-12723,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-12783,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,PoC,Third Party Fix
+CVE-2020-13434,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2020-13529,1.6,4.0,6.1,Medium,CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H,PoC,Unavailable
+CVE-2020-13630,1.0,5.9,7.0,High,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2020-13632,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-13776,0.8,5.9,6.7,Medium,CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2020-13871,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2020-14155,3.9,1.4,5.3,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L,Not Defined,Third Party Fix
+CVE-2020-14765,2.8,3.6,6.5,Medium,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2020-14812,1.2,3.6,4.9,Medium,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2020-15180,2.2,6.0,9.0,Critical,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2020-15719,1.6,2.5,4.2,Medium,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N,Not Defined,Third Party Fix
+CVE-2020-16156,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2020-1712,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2020-1751,1.0,5.9,7.0,High,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2020-1752,1.0,5.9,7.0,High,CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2020-1971,2.2,3.6,5.9,Medium,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-21913,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2020-24977,3.9,2.5,6.5,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L,PoC,Third Party Fix
+CVE-2020-25692,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-25709,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-25710,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-27350,1.5,3.7,5.7,Medium,CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:L,Not Defined,Unavailable
+CVE-2020-2752,1.6,3.6,5.3,Medium,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2020-27618,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2020-28007,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2020-28008,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2020-28009,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2020-28011,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2020-28012,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2020-28013,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2020-28014,1.8,4.2,6.1,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H,Not Defined,Unavailable
+CVE-2020-28015,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2020-28017,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2020-28019,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2020-28020,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2020-28021,2.8,5.9,8.8,High,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2020-28022,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2020-28023,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,Not Defined,Unavailable
+CVE-2020-28024,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2020-28025,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,Not Defined,Unavailable
+CVE-2020-28026,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2020-2812,1.2,3.6,4.9,Medium,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2020-2814,1.2,3.6,4.9,Medium,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2020-28196,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-29361,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2020-29362,3.9,1.4,5.3,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N,Not Defined,Unavailable
+CVE-2020-36221,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-36222,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-36223,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-36224,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-36225,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-36226,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-36227,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-36228,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-36229,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-36230,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-3810,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2020-6096,2.2,5.9,8.1,High,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2020-7595,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2020-8492,2.8,3.6,6.5,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2021-20193,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-2022,0.7,3.6,4.4,Medium,CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2021-20305,2.2,5.9,8.1,High,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2021-23336,1.6,4.2,5.9,Medium,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H,PoC,Third Party Fix
+CVE-2021-23840,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-23841,2.2,3.6,5.9,Medium,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-27212,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2021-27645,1.0,1.4,2.5,Low,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L,Not Defined,Third Party Fix
+CVE-2021-27928,1.2,5.9,7.2,High,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2021-3177,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2021-3326,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-33560,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,Not Defined,Third Party Fix
+CVE-2021-33574,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2021-33910,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2021-3516,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2021-3517,3.9,4.7,8.6,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H,Not Defined,Third Party Fix
+CVE-2021-3518,2.8,5.9,8.8,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2021-3520,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2021-3537,2.2,3.6,5.9,Medium,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-3541,2.8,3.6,6.5,Medium,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-3580,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-35942,3.9,5.2,9.1,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-36084,1.8,1.4,3.3,Low,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L,PoC,Third Party Fix
+CVE-2021-36085,1.8,1.4,3.3,Low,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L,PoC,Third Party Fix
+CVE-2021-36086,1.8,1.4,3.3,Low,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L,PoC,Third Party Fix
+CVE-2021-36087,1.8,1.4,3.3,Low,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L,PoC,Third Party Fix
+CVE-2021-3712,2.2,5.2,7.4,High,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-37600,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2021-37750,2.8,3.6,6.5,Medium,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-38371,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N,Not Defined,Unavailable
+CVE-2021-39537,2.8,5.9,8.8,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2021-3997,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2021-3999,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2021-40528,2.2,3.6,5.9,Medium,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N,PoC,Third Party Fix
+CVE-2021-4160,2.2,3.6,5.9,Medium,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N,Not Defined,Third Party Fix
+CVE-2021-4189,3.9,1.4,5.3,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N,Not Defined,Third Party Fix
+CVE-2021-4209,2.8,3.6,6.5,Medium,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-43618,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2021-45346,2.8,1.4,4.3,Medium,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N,PoC,Unavailable
+CVE-2021-45960,2.8,5.9,8.8,High,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2021-46143,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2022-0563,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N,Not Defined,Third Party Fix
+CVE-2022-0778,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2022-1271,2.8,5.9,8.8,High,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2022-1292,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2022-1304,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2022-1664,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2022-2068,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2022-2274,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2022-22822,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2022-22823,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2022-22824,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2022-22825,2.8,5.9,8.8,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2022-22826,2.8,5.9,8.8,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2022-22827,2.8,5.9,8.8,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2022-23218,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2022-23219,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2022-23308,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2022-23852,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2022-23990,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2022-24407,2.8,5.9,8.8,High,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2022-25235,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2022-25236,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2022-25308,1.8,5.9,7.8,High,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2022-25309,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2022-25310,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2022-25313,2.8,3.6,6.5,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2022-25315,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2022-27376,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27377,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27378,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27379,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27380,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27381,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27382,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27383,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27384,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27385,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27386,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27387,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27444,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27445,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27446,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27447,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27448,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2022-27449,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2022-27451,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2022-27452,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27455,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2022-27456,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Unavailable
+CVE-2022-27457,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2022-27458,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2022-29155,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,PoC,Unavailable
+CVE-2022-29458,1.8,5.2,7.1,High,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H,PoC,Unavailable
+CVE-2022-29824,2.8,3.6,6.5,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2022-31621,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2022-31622,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2022-31623,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2022-31624,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2022-34903,2.2,4.2,6.5,Medium,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N,PoC,Third Party Fix
+CVE-2020-1967,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,PoC,Third Party Fix
+CVE-2020-28928,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-23839,2.2,1.4,3.7,Low,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N,Not Defined,Third Party Fix
+CVE-2021-28831,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-30139,3.9,3.6,7.5,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2021-3449,2.2,3.6,5.9,Medium,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H,Not Defined,Third Party Fix
+CVE-2021-3450,2.2,5.2,7.4,High,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N,Not Defined,Third Party Fix
+CVE-2021-36159,3.9,5.2,9.1,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H,PoC,Third Party Fix
+CVE-2021-3711,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Not Defined,Third Party Fix
+CVE-2021-42374,1.0,4.2,5.3,Medium,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H,PoC,Unavailable
+CVE-2021-42376,1.8,3.6,5.5,Medium,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,Not Defined,Unavailable
+CVE-2021-42378,1.2,5.9,7.2,High,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2021-42379,1.2,5.9,7.2,High,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2021-42380,1.2,5.9,7.2,High,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2021-42381,1.2,5.9,7.2,High,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2021-42382,1.2,5.9,7.2,High,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2021-42384,1.2,5.9,7.2,High,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2021-42385,1.2,5.9,7.2,High,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2021-42386,1.2,5.9,7.2,High,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,Not Defined,Unavailable
+CVE-2022-2097,3.9,1.4,5.3,Medium,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N,Not Defined,Third Party Fix
+CVE-2022-28391,2.8,5.9,8.8,High,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,PoC,Third Party Fix
+CVE-2022-37434,3.9,5.9,9.8,Critical,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,PoC,Third Party Fix

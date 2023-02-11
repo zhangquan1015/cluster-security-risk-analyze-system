@@ -11,10 +11,10 @@ vulns_path=os.path.join(os.path.dirname(os.path.dirname(__file__)),"Scanner/vuln
 files = os.listdir(vulns_path)
 # print(files)
 
-header = ('CVE-ID','CVSS','CWE-ID','Exploits','Patchs','CVSS  Metrics','ESC','ISC')
-with open('oldDB.csv', 'a', newline='') as f:
-    writer = csv.writer(f)
-    writer.writerow(header)
+# header = ('CVE-ID','CVSS','CWE-ID','Exploits','Patchs','CVSS  Metrics','ESC','ISC')
+# with open('oldDB.csv', 'a', newline='') as f:
+#     writer = csv.writer(f)
+#     writer.writerow(header)
 
 for file in files:
     # print(file)
@@ -30,12 +30,13 @@ for file in files:
         if cve in db.Database:
             # print(db.Database[cve]['Prioritization Score'])
             # print(db.Database[cve])
-            print("已经存在")
+            # print("已经存在")
+            continue
         else:
             # csv_writer.writeheader()
-            print("不存在")
+            print(cve + "不存在")
             dic = parse.parse(cve)
-            print(dic)
+            # print(dic)
             # 是空的即跳过这个CVE漏洞，否则继续运行
             if not dic:
                 continue    

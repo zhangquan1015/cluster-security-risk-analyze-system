@@ -9,7 +9,7 @@ father_path = os.path.dirname(my_path)
 
 cluster_path = os.path.join(father_path,'Loader/clusterInfo')
 image_path = os.path.join(father_path,'Loader/image')
-DB_path = os.path.join(father_path,'Extractor')
+DB_path = os.path.join(father_path,'Extracter')
 CVE_path = os.path.join(father_path,"Scanner/vulns_list")
 
 def getCVEList(image_name):
@@ -18,6 +18,7 @@ def getCVEList(image_name):
         return
     df = pd.read_csv(os.path.join(CVE_path,image_name + '.csv'))
     cvelist = df.VulnerabilityID.to_list()
+    cvelist = list(set(cvelist))
     return cvelist
 
 def csv_to_dict(filename):
@@ -43,7 +44,6 @@ def csv_to_dict(filename):
 def cve(cve_id):
     try:
         cve_dic_lists = csv_to_dict(os.path.join(DB_path,'newDB.csv'))
-    # print(type(cve_dic_lists))
         return cve_dic_lists[cve_id]
     except KeyError as key:
         print("The key " + str(key) + " is not in the newDB")
