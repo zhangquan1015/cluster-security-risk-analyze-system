@@ -1,3 +1,4 @@
+# 注意需要对具体返回值进行更新  对应exploit的标签
 def exploit_helper(exploit):
     if exploit == "Not Defined":
         return 0

@@ -63,6 +63,11 @@ function_estimate(){
     python3 run.py
 }
 
+function_export(){
+    cd $EXPORTER_PATH
+    python a.py
+}
+
 function_begin() {
     if [ "$#" -eq  "0" ];then
         echo "      请选择工作流程      "
@@ -70,7 +75,7 @@ function_begin() {
         echo "  2----------镜像漏洞扫描 "
         echo "  3----------漏洞特征提取 "
         echo "  4----------集群风险分析 "
-        echo "  5----------扫描镜像漏洞 "
+        echo "  5----------修复策略生成 "
     fi
     if [[ $1 = 1 ]]; then
         function_load
@@ -85,7 +90,7 @@ function_begin() {
         function_estimate
     fi
     if [[ $1 = 5 ]]; then
-        echo 1
+        function_export
     fi
 }
 

@@ -17,6 +17,7 @@ if __name__ == '__main__':
 
 filterdatabase.py
 查看检索到的patch和exploit的版本类型
+需要和exploit-DB绑定
 
 
 nvdparser 查询漏洞信息

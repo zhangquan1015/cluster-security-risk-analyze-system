@@ -18,6 +18,7 @@ def filter_exploitation(exploits):
             return "PoC"
     return "Unproven"
 # "Unproven" "PoC"  "Not Defined"
+# "Unproven" "PoC" "EXP"
 def filter_remediation(patchs):
     if len(patchs) == 0:
         return "Unavailable"
