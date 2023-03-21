@@ -1,0 +1,4 @@
+CVE,Container,BSC,Cost_Defender,Risk
+CVE-2019-1010024,db,10.0,4.9,80.0
+CVE-2022-37434,redis,9.8,3.9,47.2
+CVE-2018-5729,db,9.0,1.0,48.0

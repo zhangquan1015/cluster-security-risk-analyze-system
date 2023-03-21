@@ -1,0 +1,4 @@
+Container,CVE,Cost_Defender,Risk
+db,CVE-2020-13776,0.6,47.2
+db,CVE-2018-16868,0.4,37.6
+db,CVE-2020-1751,0.8,47.2

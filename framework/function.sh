@@ -20,9 +20,7 @@ function_load(){
     cd $LOADER_PATH
     cat /dev/null > success_list
     cat /dev/null > fail_list
-    cat /dev/null > finish
-    python3 loader_1.py
-    echo finish > finish 
+    python3 loader.py
 }
 
 # 扫描镜像漏洞
@@ -42,7 +40,7 @@ function_scan(){
         while read name
         do
             # echo $name
-            ./scanner.sh $name
+            ./scan_new.sh $name
         done < $LOADER_PATH/image/$line
     fi
     done
@@ -65,7 +63,7 @@ function_estimate(){
 
 function_export(){
     cd $EXPORTER_PATH
-    python a.py
+    python3 run.py
 }
 
 function_begin() {

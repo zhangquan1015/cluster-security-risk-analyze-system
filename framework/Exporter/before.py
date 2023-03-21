@@ -1,12 +1,17 @@
-# import optimize
-# cluster=input("输入集群名称")
-# resource=float(input("输入可利用的修复资源\n"))
-# optimize.
-# # print(resource)
 import pandas as pd
 import os
-# import sys
-# import sort
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--budget', type=float, required=True, help='The remaining budget for the defender')
+args = parser.parse_args()
+
+# 创建一个空的列表来存储已修复的CVE，并创建一个变量来跟踪Cost_Defender的余额
+fixed_cves = []
+remaining_budget = args.budget  # 使用传入的参数作为初始的Cost_Defender余额
+repaired_risk_sum = 0
+vuln_repaired_count = 0
+cost_fix_sum = 0
 
 cluster=input("输入集群名称\n")
 cluster='example-voting-app_docker-compos_image'
@@ -19,7 +24,7 @@ fileName = os.path.join(filePath,cluster+".csv")
 df = pd.read_csv(fileName)
 
 cve_dict={}
-cve_list = df['CVE-ID'].to_list()
+cve_list = df['CVE'].to_list()
 cost_list = df['Cost_Defender']
 risk_list = df['Risk']
 

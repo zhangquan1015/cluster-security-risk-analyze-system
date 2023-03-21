@@ -43,11 +43,11 @@ for name in os.listdir(cluster_path):
                 continue
             result['Container'] = container_name
             result['Image'] = image_name
-            result['CVE-ID'] = cve_id
+            result['CVE'] = cve_id
             result['NetDep'] = box.net_helper(container_name,cluster_dic)
             result['FunDep'] = box.fun_helper(container_name,cluster_dic)
-            result['Cost_Defender'] = box.Cost_attack(cve_dic)
-            result['Cost_Attacker'] = box.Cost_fix(cve_dic)
+            result['Cost_Defender'] = box.Cost_fix(cve_dic)
+            result['Cost_Attacker'] = box.Cost_attack(cve_dic)
             result['Risk'] = box.Risk(cve_dic,container_name,cluster_dic)
             csv_writer.writerow(result)
 

@@ -2,7 +2,6 @@ import yaml
 
 
 def AST(service,cluster_services,containers,containers_info,images,networks):
-    # print(service)
     cluster_service = cluster_services[service]
     containers.append(service)
     containers_info[service] = {"name":service,"image":"","link":[],"parents":[],"networks":[],"children":[]}
@@ -25,12 +24,9 @@ def AST(service,cluster_services,containers,containers_info,images,networks):
     if 'depends_on' in cluster_service:
         for depends_on in cluster_service['depends_on']:
             containers_info[service]['parents'].append(depends_on)
-
-            # if depends_on not in containers_info:
-            #     helper(depends_on,cluster_services,containers,containers_info,images,networks)
-            # containers_info[depends_on]['children'].append(service)
     return
 
+# 加载yaml文件的信息，生成AST
 def loader(yamlPath):
     metadata = {}
     
@@ -41,7 +37,6 @@ def loader(yamlPath):
 
     f = open(yamlPath,'r',encoding='utf-8')
     myYaml = yaml.load(f,Loader=yaml.FullLoader)
-    # print()
     cluster_services = []
     cluster_networks = []
     if 'services' in myYaml:
@@ -63,43 +58,6 @@ def loader(yamlPath):
         if containers_info[child]['parents'] is not None:
             for parent in containers_info[child]['parents']:
                 containers_info[parent]['children'].append(child)
-
-        
-
-        # cluster_service = cluster_services[service]
-        # # container = {"key":"valu"}
-        # # container = {"name":service,"image":"","link":[],"depends_on":[],"networks":[]}
-        # # print(container)
-
-        # # container['name'] = service
-        # # print(service)
-        # # print(type(service))
-        # # print(cluster_services[service])
-        # # containers.append(service)
-        
-        # containers.append(service)
-        # containers_info[service] = {"name":service,"image":"","link":[],"parents":[],"networks":[],"children":[]}
-        # # 有一些容器由dockerfile直接搭建，需要特别注意一下
-       
-        # if 'image' in cluster_service:
-        #     containers_info[service]['image'] = cluster_service['image']
-        #     images.append(cluster_service['image'])
-        # if 'link' in cluster_service:
-        #     for link in cluster_service['link']:
-        #         containers_info[service]['link'].append(link)
-        # if 'depends_on' in cluster_service:
-        #     for depends_on in cluster_service['depends_on']:
-        #         containers_info[service]['parents'].append(depends_on)
-        # if 'networks' in cluster_service:
-        #     for network in cluster_service['networks']:
-        #         containers_info[service]['networks'].append(network)
-        #         networks[network].append(service)
-        # else:
-        #     containers_info[service]['networks'].append('bridge')
-        #     networks['bridge'].append(service)
-
-        # # print(container)
-        # # containers_info[container['name']] = container
         
 
     # 保存至元数据组
@@ -107,8 +65,6 @@ def loader(yamlPath):
     metadata['containers'] = containers
     metadata['images'] = images
     metadata['networks'] = networks
-
-    # print(metadata)
 
     return metadata
 
@@ -118,21 +74,3 @@ if __name__ == "__main__":
     tmp=loader(yamlPath)
     print(tmp)
 
-# metadata:{
-#     containers_info:{
-#         container1:{
-#             name:""
-#             image:""
-#             link:[]
-#             depend_on:[]
-#             childs:[](还没有搭建)
-#             network:[]
-#         }
-#     }
-#     images:[]
-#     containers:[]
-#     networks:{
-#         network1:[]
-#         newwork2:[]
-#     }   
-# }

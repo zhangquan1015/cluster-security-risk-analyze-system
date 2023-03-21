@@ -1,1 +1,10 @@
+nginx-aspnet-mysql_compose.yaml
+nginx-wsgi-flask_compose.yaml
+nginx-golang-postgres_compose.yaml
+nginx-golang-mysql_compose.yaml
+nginx-node-redis_docker-compose.yml
+nginx-flask-mysql_compose.yaml
+nginx-flask-mongo_compose.yaml
 example-voting-app_docker-compose.yml
+nginx-nodejs-redis_compose.yaml
+nginx-golang_compose.yaml
